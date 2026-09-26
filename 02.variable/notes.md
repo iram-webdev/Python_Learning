@@ -188,16 +188,221 @@ print(dict1)
 ```
 
 ---
+# Python Data Types
 
-## Quick Revision
+Python has **7 main categories of built-in data types**.
 
-| Data Type | Example | Used For |
-|---|---|---|
-| `int` | `10` | Whole numbers |
-| `float` | `10.5` | Decimal numbers |
-| `complex` | `6 + 2j` | Complex numbers |
-| `str` | `"Hello"` | Text |
-| `bool` | `True` | True/False |
-| `list` | `[1, 2, 3]` | Ordered, changeable collection |
-| `tuple` | `(1, 2, 3)` | Ordered, unchangeable collection |
-| `dict` | `{"name": "Sakshi"}` | Key-value data |
+---
+
+## 1. Numeric Data Types
+
+Numeric data types are used to store numbers.
+
+- `int` → Integer numbers
+- `float` → Decimal numbers
+- `complex` → Complex numbers
+
+**Example:**
+
+```python
+age = 20
+price = 99.5
+z = 2 + 3j
+
+print(age)
+print(price)
+print(z)
+```
+
+**Output:**
+
+```text
+20
+99.5
+(2+3j)
+```
+
+---
+
+## 2. Sequence Data Types
+
+Sequence data types are used to store multiple values in an **ordered manner**.
+
+- `str` → String/Text
+- `list` → Ordered and changeable collection
+- `tuple` → Ordered and unchangeable collection
+- `range` → Sequence of numbers
+
+**Example:**
+
+```python
+name = "Iram"
+marks = [80, 90, 85]
+numbers = (1, 2, 3)
+x = range(5)
+
+print(name)
+print(marks)
+print(numbers)
+print(x)
+```
+
+---
+
+## 3. Mapping Data Type
+
+Mapping data type stores data in **key-value pairs**.
+
+- `dict` → Dictionary
+
+**Example:**
+
+```python
+student = {
+    "name": "Iram",
+    "age": 20
+}
+
+print(student)
+```
+
+**Output:**
+
+```text
+{'name': 'Iram', 'age': 20}
+```
+
+Here:
+
+- `"name"` is the **key**
+- `"Iram"` is the **value**
+- `"age"` is the **key**
+- `20` is the **value**
+
+---
+
+## 4. Set Data Types
+
+Set data types are used to store **unique values**.
+
+Duplicate values are automatically removed.
+
+- `set` → Mutable set
+- `frozenset` → Immutable set
+
+**Example:**
+
+```python
+numbers = {1, 2, 3, 4}
+
+print(numbers)
+```
+
+**Output:**
+
+```text
+{1, 2, 3, 4}
+```
+
+---
+
+## 5. Boolean Data Type
+
+Boolean data type represents only **two values: `True` or `False`**.
+
+- `bool` → Boolean value
+
+**Example:**
+
+```python
+is_student = True
+is_teacher = False
+
+print(is_student)
+print(is_teacher)
+```
+
+**Output:**
+
+```text
+True
+False
+```
+
+---
+
+## 6. Binary Data Types
+
+Binary data types are used to store and work with **binary or raw data**.
+
+- `bytes` → Immutable sequence of bytes
+- `bytearray` → Mutable sequence of bytes
+- `memoryview` → Provides access to the memory of binary data
+
+**Example:**
+
+```python
+data = bytes([65, 66, 67])
+
+numbers = bytearray([65, 66, 67])
+
+print(data)
+print(numbers)
+```
+
+**Output:**
+
+```text
+b'ABC'
+bytearray(b'ABC')
+```
+
+---
+
+## 7. None Type
+
+`NoneType` represents the **absence of a value**.
+
+- `NoneType` → No value
+
+**Example:**
+
+```python
+result = None
+
+print(result)
+print(type(result))
+```
+
+**Output:**
+
+```text
+None
+<class 'NoneType'>
+```
+
+`None` means that the variable currently does not contain any actual value.
+
+---
+
+# Quick Revision Table
+
+| No. | Category | Data Types |
+|---:|---|---|
+| 1 | **Numeric** | `int`, `float`, `complex` |
+| 2 | **Sequence** | `str`, `list`, `tuple`, `range` |
+| 3 | **Mapping** | `dict` |
+| 4 | **Set** | `set`, `frozenset` |
+| 5 | **Boolean** | `bool` |
+| 6 | **Binary** | `bytes`, `bytearray`, `memoryview` |
+| 7 | **None** | `NoneType` |
+
+---
+
+## Easy Trick to Remember
+
+**Numeric → Sequence → Mapping → Set → Boolean → Binary → None**
+
+### Short Form:
+
+**N → S → M → S → B → B → N**
