@@ -7,6 +7,6 @@
 
 x=input("Enter your first Number:")
 y=input("Enter yoursecond number:")
-print(int(x)+int(y))
+print(int(x)+int(y)) # Typecasting user input
 
-print(x+y)
+print(x+y) # Typecasting user input using string
