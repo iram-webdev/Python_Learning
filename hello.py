@@ -87,4 +87,12 @@
 #     a=b
 #     b=c
 
+greatings="welcome"
+print(greatings[0:7])
+print(greatings[:])
+print(greatings[:7])
+print(greatings[0:])
+print(greatings[:5])
+print(greatings[1:3])
+print(greatings[2:7])
 
