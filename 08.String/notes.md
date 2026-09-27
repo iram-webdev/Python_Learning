@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # What are Strings?
 
 In Python, anything that is enclosed between **single quotes (`' '`)** or **double quotes (`" "`)** is considered a **string**.
@@ -356,4 +356,4 @@ Index → Starts from 0
 [] → Used to access characters
 for loop → Used to go through characters one by one
 ```
->>>>>>> 236d0a235ce4d1b3dfe6bebd687e7e0d994df9a7
+
