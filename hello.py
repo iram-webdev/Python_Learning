@@ -87,12 +87,38 @@
 #     a=b
 #     b=c
 
-greatings="welcome"
-print(greatings[0:7])
-print(greatings[:])
-print(greatings[:7])
-print(greatings[0:])
-print(greatings[:5])
-print(greatings[1:3])
-print(greatings[2:7])
+# greatings="welcome"
+# print(greatings[0:7])
+# print(greatings[:])
+# print(greatings[:7])
+# print(greatings[0:])
+# print(greatings[:5])
+# print(greatings[1:3])
+# print(greatings[2:7])
+
+
+# s = "PYTHONPROGRAMMING"
+# print(s[2:15:3])
+
+# s = "PYTHONPROGRAMMING"
+# print(s[10:2:-2])
+
+
+# s = "COMPUTERSCIENCE"
+# print(s[-2:-12:-3])
+
+# s = "abcdefghijklmnopqrstuvwxyz"
+# print(s[-15:-5:-4])
+
+# s = "PYTHON"
+# print(s[1:-1][::-1])
+# s = "0123456789"
+# print(s[-1:1:2])
+
+s = "PROGRAMMING"
+print(s[1:9:2][::-2])
+
+
+nm="iram"
+print(nm.upper())
 
