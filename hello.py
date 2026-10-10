@@ -115,10 +115,19 @@
 # s = "0123456789"
 # print(s[-1:1:2])
 
-s = "PROGRAMMING"
-print(s[1:9:2][::-2])
+# s = "PROGRAMMING"
+# print(s[1:9:2][::-2])
 
 
-nm="iram"
-print(nm.upper())
+# nm="iram"
+# print(nm.upper())
 
+import time
+hour=int(time.strftime("%H"))
+
+if hour<12:
+    print("Good morning")
+elif hour>12:
+    print('Good Afternoon!')
+else:
+    print('Good evening')
