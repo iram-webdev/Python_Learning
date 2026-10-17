@@ -122,12 +122,17 @@
 # nm="iram"
 # print(nm.upper())
 
-import time
-hour=int(time.strftime("%H"))
+# import time
+# hour=int(time.strftime("%H"))
 
-if hour<12:
-    print("Good morning")
-elif hour>12:
-    print('Good Afternoon!')
-else:
-    print('Good evening')
+# if hour<12:
+#     print("Good morning")
+# elif hour<17:
+#     print('Good Afternoon!')
+# else:
+#     print('Good evening')
+
+
+import time
+timestamp=time.strftime('%H:%M:%S')
+print(timestamp)    
